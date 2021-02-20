@@ -1,0 +1,377 @@
+/* Stuff to affect the entire teletext version of the site */
+html, body {
+    margin: 0;
+   }
+
+body {
+    font-family:url("media/fonts/VCR_OSD.ttf"), monospace;
+    background-color:black;
+    color:white;
+}
+
+@font-face { font-family: "VCR_OSD"; src: url("media/fonts/VCR_OSD.ttf"); } 
+@font-face { font-family: "VCR_OSD"; font-weight: bold; src: url("media/fonts/VCR_OSD.ttf"); } */
+
+
+/* Stuff to affect the header */
+
+header {
+    margin: 0;
+    font-family:"VCR_OSD",monospace;
+    position: fixed;
+    text-align:right;
+    color:white;
+    margin-right:auto;
+    margin-left:auto;
+    width: 100%;
+    overflow:visible;
+
+}
+
+
+nav [class="heading-nav"] {
+    text-align:right;
+    color:white;
+    display: inline;
+    box-shadow:3px 3px 5px 1px #333333;
+    display:block;
+    position:relative;
+}
+
+img[role="logo"] {
+    float:left;
+    margin:10px 10px 10px 10px;
+}
+  
+
+
+
+
+/* Stuff to affect the main text region*/
+
+
+section {
+    justify-content: center;
+    padding:5px;
+    align-items: center;
+    text-align:center;
+    margin-right:20%;
+    margin-left:20%;
+    letter-spacing: 3px;
+}
+
+input {
+    align-items: center;
+    padding:5px;
+}
+
+
+h1 {
+    text-transform:uppercase;
+    font-style:oblique;
+    font-size:2em;
+    padding-top:10px;
+}
+
+
+h2 {
+    font-size:1.6em;
+    padding-top:10px;
+}
+
+
+h3 {
+    font-style:italic;
+    font-size:1.3em;
+    padding-top:10px;
+}
+
+
+h4 {
+    text-transform:lowercase;
+    font-style:oblique;
+    font-size:0.8em;
+    padding-top:10px;
+}
+
+
+p {
+    margin-right:20%;
+    margin-left:20%;
+}
+
+
+small[role="body"] {
+    text-align:center;
+    opacity: 0.5;
+    font-size:0.7em;
+    letter-spacing: 1px;
+}
+
+
+table {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img[role="cover"] {
+    padding:50px;
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+        /* Design for main body text links */
+
+.body-link:link {
+    color:#2c2e35;
+    text-decoration:none;
+}
+  
+.body-link:visited {
+    color:#99e265;
+    text-decoration:none;
+}
+  
+.body-link:hover {
+    color:#ff5c5c;
+    text-decoration: underline;
+    background-color: #2c2e35;
+}
+  
+.body-link:active {
+    color:#2c2e35;
+    text-decoration: underline;
+}
+
+
+        /* Design for footer links */
+
+.header-link:link {
+    color:#2c2e35;
+    text-decoration:none;
+}
+          
+.header-link:visited {
+    color:#2c2e35;
+    text-decoration:none;
+}
+          
+.header-link:hover {
+    color:#ff5c5c;
+    text-decoration: underline;
+    background-color:#2c2e35;
+}
+          
+.header-link:active {
+    color:#e2e2df;
+    text-decoration: underline;
+}
+        
+
+        /* Design for footer links */
+
+.footer-link:link {
+    color:#e2e2df;
+    text-decoration:none;
+}
+  
+.footer-link:visited {
+    color:#99e265;
+    text-decoration:none;
+}
+  
+.footer-link:hover {
+    color:#ff5c5c;
+    text-decoration: underline;
+    background-color:#e2e2df;
+}
+  
+.footer-link:active {
+    color:#2c2e35;
+    text-decoration: underline;
+}
+
+        /* Design for image links */
+
+.image-link:link {
+    color:#2c2e35;
+    text-decoration:none;
+    cursor:url("battery.gif"), auto !important;
+}
+          
+.image-link:visited {
+    color:#99e265;
+    text-decoration:none;
+}
+          
+.image-link:hover {
+    text-decoration: none;
+}
+          
+.image-link:active {
+    color:#2c2e35;
+    text-decoration: underline;
+}
+        
+        
+.invalidImageSrc {
+    color:#99e265;
+    padding: 5px;
+    text-decoration:none;
+}
+
+
+        /* Design for footer images */
+
+.image-link:link {
+    color:#2c2e35;
+    text-decoration:none;
+    cursor:url("battery.gif"), auto !important;
+}
+                  
+.image-link:visited {
+    color:#99e265;
+    text-decoration:none;
+}
+                  
+.image-link:hover {
+    text-decoration: none;
+}
+                  
+.image-link:active {
+    color:#2c2e35;
+    text-decoration: underline;
+}
+                               
+.invalidImageSrc {
+    color:#99e265;
+    padding: 5px;
+    text-decoration:none;
+}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Stuff to affect the footer*/
+
+footer {
+    margin: 0;
+    background-color:#2c2e35;
+    color:#e2e2df;
+    text-align:center;
+}
+
+img[role="footer-cover"] {
+}
+
+
+nav [role="sub-nav"] {
+    color:#e2e2df;
+    width:100%;
+    text-align:center;
+    display: inline;
+    float: right;
+    line-height:38px;
+    padding:0;
+    margin-left : 1em;
+    margin-right : 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow:3px 3px 5px 1px #333333;
+    display:block;
+    position:relative;
+}
+
+
+small[role="sub"] {
+    text-align:center;
+    opacity: 0.5;
+    font-size:0.7em;
+    color:#e2e2df;
+    width:100%;
+}
+
+
+
+        /* Button */
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    transform:rotate(-5deg);
+    background-image: URL(teletext_blurred_overlay.jpg);
+    object-fit: cover;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    animation: mymove 2s infinite;
+    }
+            
+
+@keyframes mymove {
+    50% {transform: rotate(5deg);}
+    }
+
+
+.styled:hover {
+    background-image: URL(teletext_blurred_overlay.jpg);
+    transform:scale(10%);
+    object-fit: cover;
+    }
+
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Image moving stuff that isn't working yet*/
+
+.rokaia-moving-cover {
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    background-image: url("media/rokaia_cover.jpg");
+    background-size: 1000px;
+    cursor:crosshair"
+  }
